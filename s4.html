@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2>javascript</h2>
+
+<div id="shailja">
+<p> example of get element by tagname  </p>
+<p> find html element by tagname</p>
+</div>
+
+<p id="example"></p>
+
+<script>
+const p = document.getelementbyid("shailja");
+const q = p.getelementbytagname("p");
+
+document.getelementbyid("example").innerhtml = 
+'the first paragraph (index 0) inside "shailja" is:' + q[0].innerhtml;
+
+
+</script>
+
+</body>
